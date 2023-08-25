@@ -85,16 +85,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <button type="submit">Convert</button>
             </form>
             <div class="image">
-                <img src="
+                <img 
                 <?php
                 if ($preview != "") {
-                    echo $preview;
+                    echo 'src="' . $preview . '"';
                 } else {
-                    echo "https://i.ytimg.com/vi/7JbaXuFCYjw/maxresdefault.jpg";
+                    echo  'style="object-fit:contain;border-radius:50%;" src="https://yt3.ggpht.com/5RRG-rotIIobFFginHrN49eQsrZYhWsgBncGNc-UjE6cA64PFeSQD1utA50-IR18ecUJlu5J3Q=s600-c-k-c0x00ffffff-no-rj-rp-mo"';
                 }
 
                 ?>
-                " alt="preview image">
+                alt="preview image">
                 <a href="
                 <?php
                 if ($preview != "") {
