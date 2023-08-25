@@ -7,6 +7,4 @@ How to use
 3. use xampp for run these files
 4. You have to enable the gd extension before using it.
 
-If you don't know how to enable gd extension in xampp
-watch this video : https://youtu.be/ykvC3hr722c
-on "Ocean of Code" YouTube channel
+Follow me @ YouTube : Amegh Coder, Link is : https://www.youtube.com/@ameghcoder
